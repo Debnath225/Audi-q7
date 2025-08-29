@@ -371,6 +371,7 @@ section{
      header>nav>ul{
         width: 100%;
         background-color: #121312;
+                padding: 4px;
         display: none;
     }
     .block{
