@@ -307,4 +307,7 @@ main{
     .test-drive-form{
         grid-template-columns: repeat(1, 1fr);
     }
+     #submit{
+        grid-column: span 1;
+    }
 }
