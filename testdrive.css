@@ -277,8 +277,7 @@ main{
 #submit{
     padding: 10px;
     font-size: 18px;
-    background: var(--btn-color);
-    border: none;
+    border: 2px solid var(--primary-color);
     border-radius: var(--border-radius);
     cursor: pointer;
     transition: var(--transition);
@@ -289,7 +288,7 @@ main{
 }
 @media (width<= 850px){
     main{
-        padding-top: 30vh;
+        padding-top: 15vh;
         flex-direction: column;
         height: auto;
     }
