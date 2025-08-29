@@ -11,6 +11,7 @@
     --navbar-color: #00000a;
     --secondary-color: #4a00e0;
     --transperant-color: rgba(255, 255, 255, 0.1);
+    --btn-color: #03fd03;
     --semi-transperant-color: rgba(255, 255, 255, 0.5);
     --text-color: #fff;
     --shadow-color: rgba(0,0,0,0.2);
@@ -225,7 +226,25 @@ section{
     max-width: 600px;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
     background-color: rgba(0,0,0,0.4);
-}   
+}
+#test-drive-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--border-radius);
+    background: var(--transperant-color);
+    color: #fafafa;
+    border: 2px solid var(--primary-color);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    transition: var(--transition);
+} 
+#test-drive-btn:hover{
+    background: var(--btn-color);
+    color: var(--primary-color);
+    transition: var(--transition);
+}  
 /* model section */
 #model-q7{
     background-image: url('./images/019-2025-audi-q7.jpg');
