@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test|Drive|Book</title>
+    <link rel="stylesheet" href="testdrive.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="https://debnath225.github.io/Audi-q7/">
+              <img src="./images/audi-logo-21.png" id="logo-audi" alt="Audi Logo"></a>
+            </div>
+            <ul class="nav-links" id="topnav">
+                <li><a href="https://debnath225.github.io/Audi-q7/">Home</a></li>
+                <li><a href="https://debnath225.github.io/Audi-q7/#models">Models</a></li>
+                <li><a href="https://debnath225.github.io/Audi-q7/#about">About</a></li>
+                <li><a href="https://debnath225.github.io/Audi-q7/#contact">Contact</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <main class="flex-center flex-row">
+    <section id="form-section" >
+   <form action="https://formspree.io/f/mgebjvwp" method="POST" id="bookform" class="test-drive-form">
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+
+            <input type="email" id="email" name="email" required placeholder="Your Email">
+
+            <input type="tel" id="phone" maxlength="10" name="phone" required placeholder="Your Phone Number">
+
+
+            <select id="model" name="model" required>
+                <option value="">--Please choose an option--</option>
+                <option value="audi-q7">Audi Q7</option>
+                <option value="audi-a6">Audi A6</option>
+                <option value="audi-a8">Audi A8</option>
+                <option value="audi-q5">Audi Q5</option>
+            </select>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required >
+
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </section>
+    <section id="map-section">
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.902634632634!2d90.40660231498154!3d23.750903394589736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b0b6b6b6b7%3A0x6b6b6b6b6b6b6b6b!2sAudi%20Showroom!5e0!3m2!1sen!2sbd!4v1600000000000!5m2!1sen!2sbd" width="400" height="500" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+        </div>
+    </section>
+ </main>
+    <footer class="flex-center flex-column">
+        <p>&copy; 2024 Audi. All rights reserved.</p>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("topnav");
+            if (x.className === "nav-links") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-links";
+            }
+        }
+    </script>
+  <script src="script.js"></script>
+    
+</body>
+</html>
