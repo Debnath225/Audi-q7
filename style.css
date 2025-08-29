@@ -192,6 +192,8 @@ section{
     flex-direction: column;
     gap: 20px;
     background: linear-gradient(135deg, #121312, #5f6063);
+    background-repeat: round; 
+    /* as the background image is on mobile   */
 }
 
 /* hero section */
@@ -200,7 +202,7 @@ section{
     background-image: url('./images/geometric-purple-neon-3d-cuboid-background.jpg');
     background-size: cover;
     background-clip: content-box;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* background-repeat: round; as the background image is on mobile  */ 
 }
 #main-heading{
@@ -229,7 +231,7 @@ section{
     background-image: url('./images/019-2025-audi-q7.jpg');
     background-size: cover;
     background-clip: content-box;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* background-repeat: round; as the background image is on mobile  */ 
 }
 #model-q7 h2{
@@ -273,7 +275,7 @@ section{
 }   
 #details{
     background-image: url('./images/HD-wallpaper-audi-audi-s4-black-car-car-luxury-car-vehicle.jpg');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-clip: content-box;
 }
@@ -307,7 +309,7 @@ section{
 } 
 #about{
     background-image: url('./images/audi-dark-car-vehicle-city-hd-wallpaper-preview.jpg');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-clip: content-box;
 }
@@ -336,8 +338,9 @@ section{
     background-image: url('./images/geometric-purple-neon-3d-cuboid-background.jpg');
     background-size: cover;
     background-clip: content-box;
-    background-repeat: no-repeat;
-    /* background-repeat: round; as the background image is on mobile  */ 
+    /* background-repeat: no-repeat; */
+    background-repeat: round; 
+    /* as the background image is on mobile   */
 }
 /* responsive */  
 @media screen and (max-width: 768px){
