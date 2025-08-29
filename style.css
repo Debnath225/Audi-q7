@@ -396,7 +396,7 @@ section{
 }
 @media screen and (max-width: 480px){
     header nav ul li{
-        font-size: 8px;
+        font-size: 10px;
     }
     #main-heading{
         font-size: 20px;
