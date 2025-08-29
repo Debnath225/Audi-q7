@@ -208,6 +208,7 @@ main{
     gap: 30px;
     background: linear-gradient(135deg, #121312, #5f6063);
     background-image: url('images/audi-1920-x-1080.jpg');
+    background-repeat: no-repeat;
     background-position-x: center;
     background-attachment: fixed;
 }
