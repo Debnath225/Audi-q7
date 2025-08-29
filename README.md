@@ -12,4 +12,4 @@ The Audi Q7 is a luxury SUV known for its performance, comfort, and advanced fea
 - [Specifications](https://www.audi.com/q7/specifications)
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is not licensed 
