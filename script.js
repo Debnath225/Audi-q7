@@ -14,8 +14,10 @@ function myFunction() {
   var x = document.getElementById("topnav");
   if (x.className === "nav-links") {
     x.className += " responsive";
+    document.querySelector(".icon").innerHTML=`<i class="fa-solid fa-xmark" style="color: #ff0000;"></i>`;
   } else {
     x.className = "nav-links";
+    document.querySelector(".icon").innerHTML=`<i class="fa fa-bars"></i>`;
   }
 }
 

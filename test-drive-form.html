@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Test|Drive|Book</title>
     <link rel="stylesheet" href="testdrive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -66,8 +67,10 @@
             var x = document.getElementById("topnav");
             if (x.className === "nav-links") {
                 x.className += " responsive";
+                 document.querySelector(".icon").innerHTML=`<i class="fa-solid fa-xmark" style="color: #ff0000;"></i>`;
             } else {
                 x.className = "nav-links";
+                document.querySelector(".icon").innerHTML=`<i class="fa fa-bars"></i>`;
             }
         }
     </script>
