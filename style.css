@@ -446,12 +446,15 @@ section{
     }
     #model-q7{
         background-image: url('./images/mobile3.jpg');
+        background-repeat: round;
     }
     #details{
         background-image: url('./images/mobile2.jpg');
+        background-repeat: round;
     }
     #about{
         background-image: url('./images/mobile1.jpg');
+        background-repeat: round;
     }
 }
 @media (width<= 320px){
