@@ -14,7 +14,7 @@
     --secondary-color: #4a00e0;
     --transperant-color: rgba(255, 255, 255, 0.1);
     --btn-color: #03fd6fd2;
-    --semi-transperant-color: rgba(255, 255, 255, 0.5);
+    --semi-transperant-color: rgba(255, 255, 255, 0.889);
     --text-color: #fff;
     --balck-text-color: #000;
     --shadow-color: rgba(0,0,0,0.2);
@@ -246,7 +246,7 @@ main{
     box-sizing: border-box;
     border-radius: 2px solid var(--balck-text-color);
     font-size: 16px;
-    background-color: var(--white-color);
+    background-color: var(--semi-transperant-color);
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: 10px 10px;
@@ -266,6 +266,12 @@ main{
 }
 #model{
     background-image: url('images/car.png');
+}
+#date{
+    background-image: url('images/calendar.png');
+}
+#time{
+    background-image: url('./images/clock.png');
 }
 #submit{
     padding: 10px;
