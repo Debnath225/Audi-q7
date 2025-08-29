@@ -206,7 +206,6 @@ main{
     gap: 30px;
     background: linear-gradient(135deg, #121312, #5f6063);
     background: url('images/audi-1920-x-1080.jpg') no-repeat center center/cover;
-    background-repeat: no-repeat; 
 }
 
 #form-section{
@@ -236,7 +235,7 @@ main{
     grid-template-columns: repeat(1, 1fr);
     gap: 9px;
     background: var(--semi-transperant-color);
-    padding: 30px;
+    padding: 17px;
     border-radius: 10px;
     box-shadow: 0 0 10px var(--shadow-color);
 }
@@ -278,4 +277,34 @@ main{
 #submit:hover{
     background: var(--primary-color);
     color: var(--white-color);
+}
+@media (width<= 850px){
+    main{
+        padding-top: 30vh;
+        flex-direction: column;
+        height: auto;
+    }
+    #form-section, #map-section{
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    iframe{
+        width: 100% !important;
+        height: 500px !important;
+    }
+    .test-drive-form{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    #submit{
+        grid-column: span 2;
+    }
+    .flex-row{
+    flex-direction: column;
+}    
+}
+@media (width<=480px) {
+    .test-drive-form{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
