@@ -254,6 +254,7 @@ main{
     border-radius: var(--border-radius);
     outline: none;
     border: none;
+    box-shadow: inset 0px 0px 7px 1px;
 }
 #name{
     background-image: url('images/user.png');
