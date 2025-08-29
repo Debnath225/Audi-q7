@@ -444,6 +444,15 @@ section{
     #model-q7 h2{
         font-size: 30px;
     }
+    #model-q7{
+        background-image: url('./images/mobile3.jpg');
+    }
+    #details{
+        background-image: url('./images/mobile2.jpg');
+    }
+    #about{
+        background-image: url('./images/mobile1.jpg');
+    }
 }
 @media (width<= 320px){
     #main-heading{
